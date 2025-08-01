@@ -1,0 +1,8 @@
+This file contains a minesweeper game.
+
+
+
+In order to play it type the following command:
+
+cd minesweeper
+python main.py

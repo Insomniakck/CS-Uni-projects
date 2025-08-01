@@ -1,0 +1,70 @@
+<project name="TDD" default="jar" basedir=".">
+    <!-- Set global properties for the build -->
+    <property name="src.dir" value="src" />
+    <property name="build.dir" value="build" />
+    <property name="classes.dir" value="${build.dir}/classes" />
+    <property name="lib.dir" value="lib" />
+    <property name="dist.dir" value="${build.dir}/dist" />
+    <property name="jar.file" value="${dist.dir}/MyJavaProject.jar" />
+    <property name="test.dir" value="test" />
+    <property name="test.report.dir" value="${build.dir}/test-reports" />
+
+    <!-- Initialize the build directory structure -->
+    <target name="init">
+        <mkdir dir="${classes.dir}" />
+        <mkdir dir="${dist.dir}" />
+        <mkdir dir="${test.report.dir}" />
+    </target>
+
+    <!-- Compile the Java source files -->
+    <target name="compile" depends="init">
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false">
+            <classpath>
+                <fileset dir="${lib.dir}" includes="*.jar" />
+            </classpath>
+        </javac>
+    </target>
+
+    <!-- Compile test classes -->
+    <target name="compile-tests" depends="compile">
+        <javac srcdir="${test.dir}" destdir="${classes.dir}" includeantruntime="false">
+            <classpath>
+                <path>
+                    <pathelement location="${classes.dir}" />
+                    <fileset dir="${lib.dir}" includes="*.jar" />
+                </path>
+            </classpath>
+        </javac>
+    </target>
+
+    <!-- Run JUnit tests -->
+    <target name="test" depends="compile-tests">
+        <junit printsummary="true" haltonfailure="yes">
+            <classpath>
+                <pathelement location="${classes.dir}" />
+                <fileset dir="${lib.dir}" includes="*.jar" />
+            </classpath>
+            <formatter type="plain" />
+            <formatter type="xml" />
+            <batchtest todir="${test.report.dir}">
+                <fileset dir="${test.dir}">
+                    <include name="**/*Test.java" />
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <!-- Create a JAR file -->
+    <target name="jar" depends="compile">
+        <jar destfile="${jar.file}" basedir="${classes.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="Main" />
+            </manifest>
+        </jar>
+    </target>
+
+    <!-- Clean up build files -->
+    <target name="clean">
+        <delete dir="${build.dir}" />
+    </target>
+</project>

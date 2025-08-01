@@ -1,0 +1,25 @@
+This file contains different art files which you can view:
+
+lines
+bouncing balls
+random balls in different cages
+
+This art project uses a build file, and a jar file for gui.
+
+In order to view them run the following command:
+cd abstract_art
+ant compile
+
+for the lines:
+ant run2
+
+for single ball:
+ant run3.2
+
+for many balls:
+ant run3.3
+
+for the compele art piece:
+ant run3.4
+
+

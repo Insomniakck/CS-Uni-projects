@@ -1,0 +1,16 @@
+This is an Arknoid game with a twist.
+You play with 3 balls and a paddle which the player can move.
+
+The player has to direct the balls with the paddle so that the balls hit blocks.
+The block will dissapear only if the color of the ball is different thatn the color of the block it hit.
+The color of the ball changes to the color of the block it just hit, so be careful!
+
+If a ball escapes below the paddle it will be lost. 
+If all the balls escaped, the player loses and the game closes.
+
+The player wins if they manage to destroy all the block.
+
+
+use the following command to run the game:
+cd arknoid_game
+ant run
