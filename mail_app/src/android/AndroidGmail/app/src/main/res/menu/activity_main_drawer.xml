@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_drawer"
+        android:checkableBehavior="single">
+
+        <!-- default folders -->
+        <item android:id="@+id/nav_inbox"   android:icon="@drawable/ic_inbox"   android:title="@string/inbox"   />
+        <item android:id="@+id/nav_starred" android:icon="@drawable/ic_star"    android:title="@string/starred"/>
+        <item android:id="@+id/nav_sent"    android:icon="@drawable/ic_sent"    android:title="@string/sent"   />
+        <item android:id="@+id/nav_drafts"  android:icon="@drawable/ic_draft"   android:title="@string/drafts"/>
+        <item android:id="@+id/nav_spam"    android:icon="@drawable/ic_spam"    android:title="@string/spam"   />
+        <item android:id="@+id/nav_trash"   android:icon="@drawable/ic_trash"   android:title="@string/trash"  />
+        <item android:id="@+id/nav_add_label" android:icon="@drawable/ic_plus" android:title="@string/labels" android:enabled="true"/>
+    </group>
+
+</menu>
+
+

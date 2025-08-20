@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the group we’ll drop the dynamic labels into -->
+    <item name="group_labels" type="id"/>
+
+    <!-- this makes R.id.menu_labels_header available -->
+    <item name="menu_labels_header" type="id"/>
+
+</resources>

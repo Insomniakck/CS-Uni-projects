@@ -1,0 +1,23 @@
+# Base image
+FROM node:20
+
+# Set working directory in container
+WORKDIR /app
+
+# Copy only the relevant files into the container
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Install react-router-dom (if not already in package.json)
+RUN npm install react-router-dom
+
+# Copy the rest of the app source code
+COPY . .
+
+# Expose the default React port
+EXPOSE 3000
+
+# Start the app
+CMD ["npm", "start"]

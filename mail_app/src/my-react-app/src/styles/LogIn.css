@@ -1,0 +1,14 @@
+.light-login-page {
+  background-color: #d4ffec !important;
+  color: #212529 !important;
+}
+
+.light-login-page .form-control {
+  background-color: rgb(243, 255, 251) !important;
+  color: #212925 !important;
+}
+
+.light-login-page .btn-primary {
+  background-color: #21a078;
+  border-color: #21a078;
+}

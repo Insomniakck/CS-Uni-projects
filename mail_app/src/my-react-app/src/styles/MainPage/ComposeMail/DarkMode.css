@@ -1,0 +1,40 @@
+.dark-mode #composeBox {
+  background-color: #10201d;
+  color: #b9f6dc;
+}
+
+.dark-mode #composeForm input,
+.dark-mode #composeForm textarea {
+  background-color: #1c322a !important;
+  color: #b9f6dc;
+  border: 1px solid #1f1f1f;
+}
+
+.dark-mode #sendButton {
+  background-color: #4bc592;
+  border: #b9f6dc;
+  color: #1e1e1e;
+}
+
+.dark-mode #sendButton:hover {
+  background-color: #60eab8;
+  border: #60eab8;
+}
+/* Placeholder color */
+.dark-mode #composeForm input::placeholder,
+.dark-mode #composeForm textarea::placeholder {
+  color: #b9f6dc;
+}
+
+.dark-mode .btn-close {
+  filter: brightness(0) saturate(100%) invert(92%) sepia(10%) saturate(260%) hue-rotate(90deg) brightness(100%) contrast(90%);
+}
+
+.dark-mode #composeBox .card-header {
+  background-color: #10201d;
+  border-bottom: 1px solid #ddd;
+  color: #b9f6dc;
+}
+.dark-mode #newMessage{
+  color: #b9f6dc !important;
+}

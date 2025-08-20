@@ -1,0 +1,38 @@
+.dark-mode #createLabelWindow {
+  background-color: #174e3e;
+  color: #b9f6dc
+}
+
+.dark-mode #createLabelWindow .card-header {
+  background-color: #174e3e;
+  color: #b9f6dc;
+  font-weight: bold;
+}
+
+
+.dark-mode #createLabelButton {
+  background-color: #3bc189;
+  border: #3bc189;
+  color: #022114;
+}
+
+.dark-mode #createLabelButton:hover {
+  background-color: #69ecb5;
+  border: #b7f3e0;
+  color: #022114;
+}
+
+.dark-mode #createLabelWindow input[type="text"] {
+  background-color: #05271b;
+  border-color:     #073525;
+  color:            #b9f6dc;
+}
+
+.dark-mode #createLabelWindow input[type="text"]::placeholder {
+  color: #7dcab2;
+}
+
+.dark-mode #createLabelWindow input[type="text"]:focus {
+  box-shadow: 0 0 0 0.2rem rgba(36, 164, 125, 0.25);
+  outline: none;
+}

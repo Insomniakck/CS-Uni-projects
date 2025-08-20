@@ -1,0 +1,33 @@
+.light-signup-page {
+  background-color: #d4ffec !important;
+  color: #212529 !important;
+}
+
+.light-signup-page .form-control {
+  background-color: rgb(243, 255, 251) !important;
+  color: #212529 !important;
+  border: 1px solid #ced4da;
+}
+
+.light-signup-page .btn-primary {
+  background-color: #21a078 !important;
+  border-color: #21a078 !important;
+  color: #fff !important;
+}
+
+.light-signup-page .alert-success {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.light-signup-page .alert-danger {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+
+/* ========password eye override================ */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}

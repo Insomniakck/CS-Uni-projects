@@ -1,0 +1,89 @@
+services:
+  app:
+    build: 
+      context: ./src/MVC
+      dockerfile: Dockerfile
+    command: npm run dev
+    depends_on:
+      - mongodb
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./src/MVC:/usr/src/app        # live code matches build dir
+      - /usr/src/app/node_modules
+    environment:
+    - BLACKLIST_HOST=server
+    - BLACKLIST_PORT=5555
+    - NODE_ENV=local
+    - CONNECTION_STRING=mongodb://mongodb:27017/mydatabase
+    networks:
+      - GMail
+
+
+  mongodb:
+    image: mongo:7.0
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb-data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: mydatabase
+    networks:
+      - GMail
+
+
+  server:
+    build: 
+      context: ./src
+      dockerfile: Dockerfile
+    ports:
+      - "5555:5555"
+    volumes:
+      - ./data:/usr/src/server/build/data
+      - ./src/MVC/uploads:/usr/src/MVC/uploads
+    environment:
+      - SERVER_ARGS=${SERVER_ARGS:-"8 1 2"}
+
+    networks:
+      - GMail
+      
+
+  client:
+    build:
+      context: ./src/py
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    depends_on:
+      - server
+    networks:
+      - GMail
+
+  tests:
+    build: 
+      context: ./src
+      dockerfile: Dockerfile.tests
+    volumes:
+    - ./data:/usr/src/mytest/build/data
+    networks:
+      - GMail
+
+
+  react-app:
+    build:
+      context: ./src/my-react-app
+      dockerfile: Dockerfile.react
+    ports:
+      - "3000:3000"
+    networks:
+      - GMail
+    stdin_open: true
+    tty: true
+
+networks:
+  GMail:
+    driver: bridge
+
+volumes:
+  mongodb-data:

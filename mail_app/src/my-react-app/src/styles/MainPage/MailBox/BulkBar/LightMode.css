@@ -1,0 +1,13 @@
+.bulk-actions-green      { background:#eefff7 !important; }
+.bulk-actions-green .btn i { color:#198766 !important; }
+.bulk-actions-green .btn:hover i        { filter:brightness(1.25); }
+.bulk-actions-green .btn:active i       { filter:brightness(0.9);  }
+
+
+.bulk-action-bar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}

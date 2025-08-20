@@ -1,0 +1,9 @@
+.dark-mode #searchBox {
+  background-color: #b9f6dc;
+  color: #1e1e1e !important;
+  border: 1px solid #b9f6dc;
+}
+
+.dark-mode #searchBox::placeholder {
+  color: #1e1e1e;
+}

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Android Gmail</string>
+    <string name="login">התחברות</string>
+    <string name="password">סיסמה</string>
+    <string name="email">אימייל</string>
+    <string name="gmail">Gmail</string>
+    <string name="sign_up_link">משתמש חדש? הירשם כאן</string>
+    <string name="create_an_account">צור משתמש</string>
+    <string name="first_name">שם פרטי</string>
+    <string name="last_name">שם משפחה</string>
+    <string name="confirm_password">וידוא סיסמה</string>
+    <string name="sign_up">הרשמה</string>
+    <string name="login_link">כבר יש לך חשבון? התחבר כאן</string>
+    <string name="birthdate">תאריך לידה</string>
+    <string name="profile_image">תמונת פרופיל</string>
+    <string name="select_profile_image">בחר תמונת פרופיל</string>
+    <string name="password_requirements">על הסיסמה להכיל לפחות 8 תווים, אותיות ומספרים</string>
+    <string name="title_activity_test">Test</string>
+    <string name="compose_button">כתיבת הודעה</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="logout">התנתק</string>
+    <string name="inbox">דואר נכנס</string>
+    <string name="starred">מסומן בכוכב</string>
+    <string name="sent">נשלח</string>
+    <string name="drafts">טיוטות</string>
+    <string name="spam">ספאם</string>
+    <string name="trash">אשפה</string>
+    <string name="close">סגור</string>
+    <string name="send">שלח</string>
+    <string name="message">הודעה</string>
+    <string name="subject">נושא</string>
+    <string name="to">אל</string>
+    <string name="search">חיפוש</string>
+    <string name="labels">תוויות</string>
+    <string name="label_as">Label as</string>
+    <string name="no_labels_found">לא נמצאו תוויות</string>
+    <string name="edit_label_name">ערוך שם תווית</string>
+    <string name="update">עדכן</string>
+
+</resources>

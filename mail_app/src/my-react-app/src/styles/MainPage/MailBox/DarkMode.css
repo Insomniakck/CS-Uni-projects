@@ -1,0 +1,18 @@
+.dark-mode .mail-read {
+  background-color: #15231d;
+  color: #499173;
+  border-left: 4px solid #02633b;
+}
+
+.dark-mode .mail-unread {
+  background-color: #2f614a;
+  color: #e1e1e1;
+  border-left: 4px solid #41ce93;
+}
+
+.dark-mode .sender-tooltip.custom-tooltip {
+  background-color: #117352;
+  color: #ceffea;
+  border: solid #117352;
+
+}

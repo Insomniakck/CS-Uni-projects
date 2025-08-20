@@ -1,0 +1,4 @@
+
+/* dark mode (when <body> already has .dark-mode) */
+.dark-mode .bulk-actions-green  { background:#010f09 !important; }
+.dark-mode .bulk-actions-green .btn i { color:#4dd4a8 !important; }

@@ -1,0 +1,57 @@
+
+
+/* Left menu active item */
+.dark-mode .list-group-item.active {
+  background-color: #0e855d !important;
+  color: #ffffff !important;
+}
+
+/* Custom label links */
+.dark-mode .text-dark {
+  color: #e0e0e0 !important;
+}
+
+/* Dark mode compose button */
+.dark-mode #composeButton {
+  background-color: #0fa57a;
+  border-color: #0e855d;
+  color: #ffffff;
+}
+
+.dark-mode #composeButton:hover {
+  background-color: #20da9f;
+  color: #ffffff;
+}
+
+
+.dark-mode .three-dot-button:hover {
+  color: #ffffff;
+}
+
+
+
+/* Dark mode LeftMenu */
+.dark-mode .col-2 {
+  background-color: #010f09 !important;
+  /* color: #e0e0e0; */
+  color: #23a16b;
+
+}
+
+.dark-mode .list-group-item {
+  background-color: transparent;
+  /* color: #e0e0e0; */
+  color: #2dd49d;
+  border-color: #121212;
+}
+
+.dark-mode .list-group-item:hover {
+  background-color: #1e3e30;
+  color: white;
+}
+
+.dark-mode .add-label-btn i {
+  color: #0b824e;
+  font-weight: 900;
+}
+

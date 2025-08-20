@@ -1,0 +1,8 @@
+
+/* Dark mode (body already gets .dark-mode) */
+.dark-mode .single-action-bar        { background:#010f09; }
+.dark-mode .single-action-bar .btn i { color:#4dd4a8;  }
+
+/* hover / active tweaks (optional) */
+.single-action-bar .btn:hover i  { filter:brightness(1.25); }
+.single-action-bar .btn:active i { filter:brightness(0.9);  }

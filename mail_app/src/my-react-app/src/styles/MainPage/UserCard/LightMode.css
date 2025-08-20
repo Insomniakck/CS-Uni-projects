@@ -1,0 +1,12 @@
+
+
+.user-card-dark {
+  background-color: #d2f2e4 !important;
+  color: #31634d;
+}
+
+#logoutButton {
+  background-color: #177d4c;
+  border-color: #177d4c;
+  color: #cdfde9;
+}

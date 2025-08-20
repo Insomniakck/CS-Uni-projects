@@ -1,0 +1,16 @@
+.dark-mode .user-card-dark {
+  background-color: #386b56 !important;
+  color: #b9f6dc;
+}
+
+.dark-mode #logoutButton {
+  background-color: #b9f6dc;
+  border-color: #b9f6dc;
+  color: #1e1e1e;
+}
+
+.dark-mode #logoutButton:hover {
+  background-color: #1c392d;
+  border-color: #1c392d;
+  color: #e1e1e1;
+}

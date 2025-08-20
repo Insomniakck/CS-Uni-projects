@@ -1,0 +1,14 @@
+.card,
+.form-control,
+.btn,
+.list-group-item {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+  --bs-secondary-color: white;
+}

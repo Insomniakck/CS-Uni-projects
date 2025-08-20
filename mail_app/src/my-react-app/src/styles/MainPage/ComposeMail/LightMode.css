@@ -1,0 +1,63 @@
+
+/* Dark mode create label */
+#createLabelWindow {
+  background-color: #083f2d;
+  color: #b9f6dc
+}
+
+
+
+/* ===============compose mail========================== */
+#composeBox {
+  position: fixed;
+  bottom: 2vh;
+  right: 2vw;
+  width: 35vw;
+  height: 75vh;
+  z-index: 1050;
+  border-radius: 1rem;
+  background-color: white;
+  color: black;
+  min-width: 300px;
+  min-height: 300px;
+  padding: 1rem;
+}
+
+/* Inputs */
+#composeForm input,
+#composeForm textarea {
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #d8faeb;
+  border-radius: 5px;
+}
+
+#sendButton {
+  background-color: #1ea36c;
+  border: #b9f6dc;
+  color: #effcff;
+}
+
+#sendButton:hover {
+  background-color: #4bd9a5;
+  border: #60eab8;
+}
+
+
+
+#composeBox {
+  background-color: #d5fde8;
+  color: black;
+}
+
+#composeBox .card-header {
+  background-color: #d5fde8;
+  border-bottom: 1px solid #4bd9a5;
+}
+
+#composeBox #newMessage {
+  color: #000;
+}
+

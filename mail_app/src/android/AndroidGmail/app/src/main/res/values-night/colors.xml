@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="login_button_bg">#3d6f5e</color>
+    <color name="login_button_text">#FFFFFF</color>
+    <color name="signup_button_bg">#3d6f5e</color>
+    <color name="signup_button_text">#FFFFFF</color>
+    <color name="logo">#0d5c4c</color>
+    <color name="left_menu_color">#111412</color>
+    <color name="text_color">#FFFFFF</color>
+
+
+
+    <!-- Dark mode mint tone -->
+    <color name="my_primary">#579487</color>
+    <color name="my_secondary">#579487</color>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Search menu item -->
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/search"
+        app:actionLayout="@layout/search_menu_item"
+        app:showAsAction="always" />
+
+    <!-- User menu icon -->
+    <item
+        android:id="@+id/action_user"
+        app:actionLayout="@layout/user_icon_menu_item"
+        android:title="User"
+        app:showAsAction="always"/>
+
+</menu>

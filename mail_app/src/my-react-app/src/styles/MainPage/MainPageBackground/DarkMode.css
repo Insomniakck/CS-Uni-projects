@@ -1,0 +1,21 @@
+.dark-mode {
+  background-color: #010f09;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode .container-fluid {
+  background-color: #010f09;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode .col-10 {
+  background-color: #010f09;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode .navbar {
+  background-color: #010f09 !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  transition: background-color 0.3s ease, border-bottom 0.3s ease, box-shadow 0.3s ease;
+}

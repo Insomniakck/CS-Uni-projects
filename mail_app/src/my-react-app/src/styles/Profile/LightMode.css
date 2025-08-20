@@ -1,0 +1,30 @@
+
+
+.text-truncate-label {
+  display: inline-block;
+  max-width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+.text-truncate-label-dropdown {
+  display: inline-block;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.profile-ring {
+  padding: 3px;
+  border-radius: 50%;
+  background: conic-gradient(#03adad 0% 12.5%,
+      #02c66a 12.5% 37.5%,
+      #057c3b 37.5% 62.5%,
+      #01b887 62.5% 87.5%,
+      #03adad 87.5% 100%);
+  display: inline-block;
+}

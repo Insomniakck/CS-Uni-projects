@@ -1,0 +1,81 @@
+
+.three-dot-button {
+  background:#0e7857;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  color: #0e7857;
+}
+
+
+.three-dot-button {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+
+.three-dot-button:hover {
+  color: #1d3730;
+}
+
+.list-group-item.list-group-item-action.active {
+  background-color: #24a47d !important;
+  color: #fff !important;
+}
+/* compose button light mode */
+#composeButton {
+  background-color: #24a47d;
+  border-color: #1faf6c;
+  color: white; 
+  padding: 0.85rem 1.25rem;
+  font-size: 1.05rem;
+  margin-top: -0.35rem;
+  
+}
+
+
+#composeButton:hover {
+  background-color: #05805b;
+  border-color: #157347;
+}
+
+#composeButton:active {
+  background-color: #115c38 !important;
+  border-color: #115c38 !important;
+}
+
+.list-group-item:hover .three-dot-button {
+  opacity: 1;
+  
+}
+/* Hover‑state for list‑group items (the left‑menu links) */
+body:not(.dark-mode) .list-group-item-action:not(.active):hover {
+  background-color: #89eccb !important;
+  color:         #2f473c !important;
+}
+
+/* Hover‑state for toolbar buttons, if you also want those green */
+body:not(.dark-mode) .bulk-action-bar .btn:not(.active):hover {
+  background-color: #a3f2d8 !important;
+  color:         #2f473c !important;
+}
+
+.rounded-label {
+  border-radius: 0.75rem; 
+}
+
+body:not(.dark-mode)   .left-menu {
+  background-color: #baffe8;
+  color: #175e3f;
+  border-color: #9cf6cf;
+}
+
+.add-label-btn i {
+  color: #0f5e3d;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+

@@ -1,0 +1,63 @@
+@import './styles/LogIn.css';
+@import './styles/SignUp.css';
+@import './styles/AppHeader.css';
+@import './styles/Toast.css';
+@import './styles/Transition.css';
+
+/* MainPage */
+
+/* ComposeMail */
+@import './styles/MainPage/ComposeMail/DarkMode.css';
+@import './styles/MainPage/ComposeMail/LightMode.css';
+
+/* Left Menu */
+@import './styles/MainPage/LeftMenu/CreateLabel/DarkMode.css';
+@import './styles/MainPage/LeftMenu/CreateLabel/LightMode.css';
+
+@import './styles/MainPage/LeftMenu/LabelDropMenu/LightMode.css';
+@import './styles/MainPage/LeftMenu/LabelDropMenu/DarkMode.css';
+@import './styles/MainPage/LeftMenu/DarkMode.css';
+@import './styles/MainPage/LeftMenu/LightMode.css';
+
+/* MailBox */
+@import './styles/MainPage/MailBox/BulkBar/DarkMode.css';
+@import './styles/MainPage/MailBox/BulkBar/LightMode.css';
+@import './styles/MainPage/MailBox/CheckBox/DarkMode.css';
+@import './styles/MainPage/MailBox/CheckBox/LightMode.css';
+@import './styles/MainPage/MailBox/DarkMode.css';
+@import './styles/MainPage/MailBox/LightMode.css';
+@import './styles/MainPage/MailBox/MailItem/DarkMode.css';
+@import './styles/MainPage/MailBox/MailItem/LightMode.css';
+
+/* SearchBar */
+@import './styles/MainPage/SearchBar/DarkMode.css';
+@import './styles/MainPage/SearchBar/LightMode.css';
+
+
+/* Background */
+@import './styles/MainPage/MainPageBackground/DarkMode.css';
+@import './styles/MainPage/MainPageBackground/LightMode.css';
+
+/* SingleMail */
+@import './styles/MainPage/SingleMail/LightMode.css';
+@import './styles/MainPage/SingleMail/SingleMailActionBar/DarkMode.css';
+@import './styles/MainPage/SingleMail/SingleMailActionBar/LightMode.css';
+
+/* UserCard */
+@import './styles/MainPage/UserCard/DarkMode.css';
+@import './styles/MainPage/UserCard/LightMode.css';
+
+/* Profile */
+@import './styles/Profile/LightMode.css';
+
+/* Logo */
+@import './styles/Logo/DarkMode.css';
+@import './styles/Logo/LightMode.css';
+
+/* Moon */
+@import './styles/MoonIcon/DarkMode.css';
+@import './styles/MoonIcon/LightMode.css';
+
+
+
+

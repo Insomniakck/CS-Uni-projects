@@ -1,0 +1,26 @@
+FROM gcc:latest
+
+# Install dependencies
+RUN apt-get update && apt-get install -y cmake
+
+# Copy the entire project directory into the container
+COPY . /usr/src/mytest
+
+# Make sure the blacklistFile.txt is inside data/ at build time
+RUN mkdir -p /usr/src/mytest/build/data
+
+# Verify the file structure inside the container (for debugging)
+RUN ls -R /usr/src/mytest
+
+# Create a build directory and move there
+WORKDIR /usr/src/mytest/build
+
+# Run cmake on the CMakeLists.txt inside /usr/src/mytest and build the project
+RUN cmake /usr/src/mytest && make
+
+# Ensure the test executable has the correct permissions
+RUN chmod +x run_tests
+
+ENV GTEST_COLOR=1
+
+CMD ["./run_tests"]

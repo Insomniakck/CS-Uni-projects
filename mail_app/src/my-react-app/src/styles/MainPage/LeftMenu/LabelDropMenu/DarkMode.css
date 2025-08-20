@@ -1,0 +1,15 @@
+
+/* Dark mode Label buttons (add/edit/delete) */
+.dark-mode .dropdown-menu {
+  background-color: #1e3e30;
+  color: #b9f6dc;
+}
+
+.dark-mode .dropdown-item {
+  color: #e0e0e0;
+}
+
+.dark-mode .dropdown-item:hover {
+  background-color: #386b56;
+  color: #e0e0e0;
+}

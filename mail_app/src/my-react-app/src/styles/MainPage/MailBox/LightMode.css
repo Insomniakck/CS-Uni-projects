@@ -1,0 +1,22 @@
+.mail-read {
+  background-color: #eefff7;
+  color: #666;
+  border-left: 4px solid #a4c9ba;
+}
+
+.mail-unread {
+  background-color: #aff3da;
+  color: #143b26;
+  border-left: 4px solid #4ba780;
+}
+
+.mailbox-wrapper:hover {
+  background-color: #7dd1b6;
+}
+
+.sender-tooltip.custom-tooltip {
+  background-color: #dbfff2;
+  color: #143b26;
+  border: solid #b8fee1;
+
+}

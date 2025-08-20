@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inbox">
+
+    <fragment
+        android:id="@+id/nav_inbox"
+        android:name="com.example.androidgmail.ui.DefaultLabelFragment"
+        tools:layout="@layout/fragment_inbox" />
+
+    <fragment
+        android:id="@+id/nav_custom_label"
+        android:name="com.example.androidgmail.ui.CustomLabelFragment"
+        tools:layout="@layout/fragment_inbox">
+
+        <argument
+            android:name="labelId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

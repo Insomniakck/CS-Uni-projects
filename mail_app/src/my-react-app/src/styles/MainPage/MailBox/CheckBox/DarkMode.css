@@ -1,0 +1,13 @@
+.dark-mode .custom-checkmark {
+  background-color: #010f09;
+  border-color: #052618;
+}
+
+.dark-mode .custom-checkbox-wrapper input[type="checkbox"]:checked + .custom-checkmark {
+  background-color: #69f1ad;
+  border-color: #69f1ad;
+}
+
+.dark-mode .custom-checkmark::after {
+  border-color: white;
+}

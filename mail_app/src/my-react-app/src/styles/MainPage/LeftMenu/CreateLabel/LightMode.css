@@ -1,0 +1,33 @@
+
+body:not(.dark-mode) #createLabelWindow  {
+  background-color: #ffffff;
+  color: #114d3f;
+  font-weight: bold;
+}
+
+/* Light mode create label input */
+body:not(.dark-mode) #createLabelWindow input[type="text"] {
+  background-color: #e6f7f1;
+  border-color:     #76cbb2;
+  color:            #114d3f;
+}
+
+body:not(.dark-mode) #createLabelWindow input[type="text"]::placeholder {
+  color: #7bb5a1;
+}
+
+body:not(.dark-mode) #createLabelWindow input[type="text"]:focus {
+  box-shadow: 0 0 0 0.2rem rgba(33, 150, 119, 0.25);
+  outline: none;
+}
+
+/* Light mode button */
+body:not(.dark-mode) #createLabelButton {
+  background-color: #4ba780;
+  border:           none;
+  color:            #ffffff;
+}
+
+body:not(.dark-mode) #createLabelButton:hover {
+  background-color: #3d8a6a;
+}

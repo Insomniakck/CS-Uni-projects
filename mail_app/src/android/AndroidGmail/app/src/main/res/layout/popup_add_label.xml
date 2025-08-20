@@ -1,0 +1,24 @@
+<!-- res/layout/popup_add_label.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/left_menu_color">
+
+    <EditText
+        android:id="@+id/edit_label_name"
+        android:textColor="@color/text_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Label name" />
+
+    <Button
+        android:backgroundTint="@color/login_button_bg"
+        android:id="@+id/btn_create_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp" />
+</LinearLayout>

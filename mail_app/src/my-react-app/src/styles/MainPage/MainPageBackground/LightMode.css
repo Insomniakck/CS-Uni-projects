@@ -1,0 +1,25 @@
+.container-fluid {
+  background-color: #eefff7;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.col-10 {
+  background-color: #eefff7;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+  background-color: #eefff7 !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  transition: background-color 0.3s ease, border-bottom 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Dark mode LeftMenu */
+.col-2 {
+  background-color: #eefff7 !important;
+  /* color: #e0e0e0; */
+  color: #284e3c;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+}

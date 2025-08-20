@@ -1,0 +1,9 @@
+#searchBox {
+  background-color: #ffffff;
+  color: #074331 !important;
+  border: 1px solid #d6ffed;
+}
+
+#searchBox::placeholder {
+  color: #074331;
+}

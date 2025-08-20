@@ -1,0 +1,20 @@
+
+.dark-mode #senderInfo {
+  color: #b9f6dc !important;
+}
+
+.dark-mode #timeInfo {
+  color: #b9f6dc !important;
+}
+
+.dark-mode #mailContent {
+  color: #b9f6dc;
+}
+
+.dark-mode #mailSubject {
+  color: #b9f6dc;
+}
+
+.dark-mode #toRecipient {
+  color: #b9f6dc !important;
+}
